@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Mỹ Diệu</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial;
+        background: #f5f5f5;
+    }
+
+    .container {
+        width: 800px;
+        margin: 30px auto;
+        background: white;
+        border: 2px solid #999;
+    }
+
+    header {
+        text-align: center;
+        color: red;
+        padding: 20px;
+        border-bottom: 2px solid #999;
+    }
+
+    .menu {
+        display: flex;
+        border-bottom: 2px solid #999;
+    }
+
+    .menu div {
+        flex: 1;
+        text-align: center;
+        padding: 10px;
+        border-right: 1px solid #999;
+    }
+
+    .menu div:last-child {
+        border-right: none;
+    }
+
+    .section {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 2px solid #999;
+    }
+
+    .img-box {
+        width: 150px;
+        height: 150px;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+
+    .info {
+        flex: 1;
+        line-height: 1.8;
+    }
+
+    .hobby {
+        text-align: center;
+        padding: 30px 20px;
+        border-bottom: 2px solid #999;
+        font-weight: bold;
+    }
+
+    footer {
+        padding: 20px;
+        line-height: 2;
+        text-align: center; /* ✅ đã sửa ở đây */
+        font-weight: 500;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>MỸ DIỆU - 11A6</h1>
+    </header>
+
+    <div class="menu">
+        <div>Khám phá</div>
+        <div>Chia sẻ</div>
+        <div>Trải nghiệm</div>
+    </div>
+
+    <div class="section">
+        <div class="img-box">Ảnh 1</div>
+        <div class="info">
+            Tên: Nguyễn Thị Mỹ Diệu<br>
+            Lớp: 11A6<br>
+            Trường: THPT số 1 Nguyễn Huệ
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="img-box">Ảnh 2</div>
+        <div class="info">
+            <div class="hobby">Sở thích: Nấu ăn</div>
+        </div>
+    </div>
+
+    <footer>
+        SĐT: 0972381687<br>
+        Email: mydieu@gmail.com<br>
+        FB: Mỹ Diệu
+    </footer>
+
+</div>
+
+</body>
+</html>
